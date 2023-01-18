@@ -1,0 +1,24 @@
+# Page Name
+site_name: Product Docs
+
+#Navigation
+nav:
+  - Home: index.md
+  - Resources: kba.md
+  - About: about.md
+
+#Theme
+theme:
+  name: material
+  nav_style: dark
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - python
+    - javascript
+  plugins:
+    - social:
+        cards_color:
+          fill: "#0FF1CE" 
+          text: "#FFFFFF"
+  
