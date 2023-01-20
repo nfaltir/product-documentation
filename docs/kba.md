@@ -39,13 +39,13 @@ If you still need help please create a product service request and someone will 
                 text-align: center;
                 padding: 10px;
                 background-color: #8D9EFF;
-                border-radius: 4px;" href="/product1/ticket">Create Service Ticket</a> <a style="text-decoration: none;
+                border-radius: 4px;" href="/product1/ticket">Create Ticket</a> <a style="text-decoration: none;
                 color: white;
                 text-align: center;
                 padding: 10px;
                 background-color: #827397;
                 margin-left: 20px;
-                border-radius: 4px;" href="/product1/feedback">Send Product Feedback</a>
+                border-radius: 4px;" href="/product1/feedback">Send Feedback</a>
 <br>
 <hr>
 <br>
@@ -86,13 +86,13 @@ If you still need help please create a product service request and someone will 
                 text-align: center;
                 padding: 10px;
                 background-color: #8D9EFF;
-                border-radius: 4px;" href="/product2/ticket">Create Service Ticket</a> <a style="text-decoration: none;
+                border-radius: 4px;" href="/product2/ticket">Create Ticket</a> <a style="text-decoration: none;
                 color: white;
                 text-align: center;
                 padding: 10px;
                 background-color: #827397;
                 margin-left: 20px;
-                border-radius: 4px;" href="/product2/feedback">Send Product Feedback</a>
+                border-radius: 4px;" href="/product2/feedback">Send Feedback</a>
 <br>
 <hr>
 <br>
@@ -134,13 +134,13 @@ If you still need help please create a product service request and someone will 
                 text-align: center;
                 padding: 10px;
                 background-color: #8D9EFF;
-                border-radius: 4px;" href="/product3/ticket">Create Service Ticket</a> <a style="text-decoration: none;
+                border-radius: 4px;" href="/product3/ticket">Create Ticket</a> <a style="text-decoration: none;
                 color: white;
                 text-align: center;
                 padding: 10px;
                 background-color: #827397;
                 margin-left: 20px;
-                border-radius: 4px;" href="/product3/feedback">Send Product Feedback</a>
+                border-radius: 4px;" href="/product3/feedback">Send Feedback</a>
 <br>
 <hr>
 <br>
