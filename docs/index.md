@@ -1,76 +1,79 @@
-# Products
+<h1 style="text-align: center; font-size:3rem; font-weight:bold; text-transform: uppercase;">Products</h1>
 
-Please select a product to view all documentations and release notes.
+<p style="text-align: center;">Please select a product to view all documentations and release notes.</p>
 
 
-<div style="background-color: white;
-    justify-content: center;
-    width: 800px;
-    margin: auto;
-    background: #fafafafa;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 60px;">
-    <ul style="display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
-    justify-content: center;">
-        <li style="list-style: none;
-            background-color: #607EAA;
-            color: white;
-            text-align: center;
-            height: 300px;
-            width: 300px;
+ 
+<div class="card" style="width: 550px;
+            align-items: center;
+            margin: auto;
             justify-content: center;
+            background-color: #fafafa;
+            padding: 10px;
             border-radius: 10px;
-            padding: 10px;">
-            <h1 style="color: white;">Product 1</h1>
-            <p style=" margin-top: 20px;
-                padding: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, ea. this is a test</p>
-            <a style="text-decoration: none;
-                color: black;
-                text-align: center;
-                padding: 10px;
-                background-color: #EAE3D2;
-                border-radius: 4px;" href="kba/#product-one">View Docs</a>
-        </li>
-        <li style="list-style: none;
-            background-color: #607EAA;
-            color: white;
+            margin-top:50px;
+            @media (min-width:400px){align-items:center; justify-content:center; margin-right:500px; width:400px; background:red;}">
+            <h1 style="text-align: center;">Product One</h1>
+            <p style="padding: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minima quidem ex 
+                tempore quisquam sapiente quia sed eaque molestias? Repudiandae!</p>
+            <a href="kba/#product-one" style=" margin: auto;
+            width: 200px;
             text-align: center;
-            height: 300px;
-            width: 300px;
-            justify-content: center;
-            border-radius: 10px;
-            padding: 10px;">
-            <h1 style="color: white;">Product 1</h1>
-            <p style=" margin-top: 20px;
-                padding: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, ea. this is a test</p>
-            <a style="text-decoration: none;
-                color: black;
-                text-align: center;
-                padding: 10px;
-                background-color: #EAE3D2;
-                border-radius: 4px;" href="kba/#product-one">View Docs</a>
-        </li>
-        <li style="list-style: none;
-            background-color: #607EAA;
+            background-color: rebeccapurple;
+            padding: 10px;
             color: white;
-            text-align: center;
-            height: 300px;
-            width: 300px;
+            border-radius: 5px;
+            text-decoration: none;
             justify-content: center;
-            border-radius: 10px;
-            padding: 10px;">
-            <h1 style="color: white;">Product 1</h1>
-            <p style=" margin-top: 20px;
-                padding: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, ea. this is a test</p>
-            <a style="text-decoration: none;
-                color: black;
-                text-align: center;
-                padding: 10px;
-                background-color: #EAE3D2;
-                border-radius: 4px;" href="kba/#product-one">View Docs</a>
-        </li>
-        
-    </ul>
+            align-items: center;
+            display: flex;
+            margin-bottom: 20px;">View Docs</a>
+</div>
+<div class="card" style="width: 550px;
+            align-items: center;
+            margin: auto;
+            justify-content: center;
+            background-color: #fafafa;
+            padding: 10px;
+            margin-top:50px;
+            border-radius: 10px;">
+            <h1 style="text-align: center;">Product Two</h1>
+            <p style="padding: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minima quidem ex 
+                tempore quisquam sapiente quia sed eaque molestias? Repudiandae!</p>
+            <a href="kba/#product-two" style=" margin: auto;
+            width: 200px;
+            text-align: center;
+            background-color: rebeccapurple;
+            padding: 10px;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin-bottom: 20px;">View Docs</a>
+</div>
+<div class="card" style="width: 550px;
+            align-items: center;
+            margin: auto;
+            justify-content: center;
+            background-color: #fafafa;
+            padding: 10px;
+            margin-top:50px;
+            border-radius: 10px;">
+            <h1 style="text-align: center;">Product Three</h1>
+            <p style="padding: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minima quidem ex 
+                tempore quisquam sapiente quia sed eaque molestias? Repudiandae!</p>
+            <a href="kba/#product-three" style=" margin: auto;
+            width: 200px;
+            text-align: center;
+            background-color: rebeccapurple;
+            padding: 10px;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin-bottom: 20px;">View Docs</a>
 </div>

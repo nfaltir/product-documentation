@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #fafafa;
+            font-family: sans-serif;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(1fr, 1fr, 1fr);
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            margin-bottom: 50px;
+            margin-top: 200px;
+        }
+        .card{
+            width: 450px;
+            background-color: whitesmoke;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .card h1{
+            text-align: center;
+        }
+
+        .card p {
+            padding: 10px;
+        }
+
+        .card a {
+            margin: auto;
+            width: 100px;
+            text-align: center;
+            background-color: rebeccapurple;
+            padding: 10px;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .card a:hover{
+            background-color: purple;
+            text-transform: lowercase;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Product One</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minima quidem ex 
+                tempore quisquam sapiente quia sed eaque molestias? Repudiandae!</p>
+            <a href="kba/#product-one">View Docs</a>
+        </div>
+        <div class="card">
+            <h1>Product Two</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minima quidem ex 
+                tempore quisquam sapiente quia sed eaque molestias? Repudiandae!</p>
+            <a href="kba/#product-two">View Docs</a>
+        </div>
+        <div class="card">
+            <h1>Product Three</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minima quidem ex 
+                tempore quisquam sapiente quia sed eaque molestias? Repudiandae!</p>
+            <a href="kba/#product-three">View Docs</a>
+        </div>
+    </div>
+</body>
+</html>

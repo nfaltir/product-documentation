@@ -1,2 +1,0 @@
-[tool.netlify]
-python = "3.10"
