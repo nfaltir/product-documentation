@@ -1,51 +1,70 @@
-<h1 style="text-align:center;">Product One Service Request</h1>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 10% auto;
+        background-color: #fafafa;
+        box-shadow: 0 10px 15px rgba(179, 179, 179, 0.7);
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    input,
+    textarea {
+        font-size: 16px;
+        padding: 10px;
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+
+    textarea {
+        height: 150px;
+        resize: vertical;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 10px 20px 13px;
+        border: none;
+        background-color: #827397;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+    }
+</style>
 
 <body>
-    <form style="   display: flex;
-    flex-direction: column;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    background-color: #fafafa;
-    max-width: 600px;
-    height: 600px;
-    margin-top: 10%;
-    box-shadow: 0 10px 15px rgba(179, 179, 179, 0.7);" action="#">
-        <input style="font-size: 20px;
-        border-radius: 5px;
-        padding: 10px;
-        width: 300px;
-        border: black 1px solid" type="text" placeholder="Enter Full Name">
-        <input style="font-size: 20px;
-        border-radius: 5px;
-        margin-top: 20px;
-        padding: 10px;
-        width: 300px;
-        border: black 1px solid" type="email" placeholder="Enter Email">
-        <legend style="font-size: 20px;
-        border-radius: 5px;
-        text-align: center;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding: 10px;
-        width: 300px;
-        ">--------</legend>
-        <textarea style="font-size: 20px;
-            border-radius: 5px;
-            padding: 10px;
-            width: 300px;
-            height: 150px;
-            border: black 1px solid" placeholder="Give Product Feedback">
-        </textarea>
-        <button style=" font-size: 20px;
-            padding: 10px 20px 13px 20px;
-            margin-top: 30px;
-            border: #fafafa;
-            background-color: #827397;
-            color: white;
-            border-radius: 5px;
-            cursor: pointer;
-            width: 300px;" type="submit">Submit
-        </button>
-    </form>
+    <div class="container">
+        <h1>Product One Feedback</h1>
+        <form action="#">
+            <input type="text" placeholder="Enter Full Name">
+            <input type="email" placeholder="Enter Email">
+            <legend>--------</legend>
+            <textarea placeholder="Give Product One Feedback"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 </body>

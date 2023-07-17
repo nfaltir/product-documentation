@@ -1,50 +1,84 @@
-<h1 style="text-align:center;">Product Two Service Request</h1>
+<style>
+    body {
+        background-color: #f9f9f9;
+        font-family: Arial, sans-serif;
+    }
 
+    .product-one-ticket{
+        text-align:center;
+        font-weight:bold;
+    }
 
-<body>
-    <form style="   display: flex;
-    flex-direction: column;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    background-color: #fafafa;
-    max-width: 600px;
-    height: 600px;
-    margin-top: 10%;
-    box-shadow: 0 10px 15px rgba(179, 179, 179, 0.7);" action="#">
-        <input style="font-size: 20px;
-        border-radius: 5px;
-        padding: 10px;
-        width: 300px;
-        border: black 1px solid" type="text" placeholder="Enter Full Name">
-        <input style="font-size: 20px;
-        border-radius: 5px;
-        margin-top: 20px;
-        padding: 10px;
-        width: 300px;
-        border: black 1px solid" type="email" placeholder="Enter Email">
-        <legend style="font-size: 20px;
-        border-radius: 5px;
+    .form-container {
+        max-width: 500px;
+        margin: 10% auto;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-title {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 20px;
         text-align: center;
-        margin-top: 10px;
-        margin-bottom: 10px;
+    }
+
+    .form-label {
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 5px;
+    }
+
+    .form-input {
+        font-size: 16px;
         padding: 10px;
-        width: 300px;
-        ">--------</legend>
-        <textarea style="font-size: 20px;
+        width: 100%;
+        border: 1px solid #ccc;
         border-radius: 5px;
+        margin-bottom: 15px;
+    }
+
+    .form-textarea {
+        font-size: 16px;
         padding: 10px;
-        width: 300px;
+        width: 100%;
         height: 150px;
-        border: black 1px solid" placeholder="Describe your problem"></textarea>
-        <button style=" font-size: 20px;
-        padding: 10px 20px 13px 20px;
-        margin-top: 30px;
-        border: #fafafa;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        resize: vertical;
+        margin-bottom: 15px;
+    }
+
+    .form-button {
+        font-size: 16px;
+        padding: 10px 20px;
+        border: none;
         background-color: steelblue;
-        color: white;
+        color: #fff;
         border-radius: 5px;
         cursor: pointer;
-        width: 300px;" type="submit">Submit</button>
-    </form>
+        width: 100%;
+    }
+</style>
+
+<body>
+    <h1 class="product-one-ticket">Product Two Service Request</h1>
+    <div class="form-container">
+        <h2 class="form-title">Contact Us</h2>
+        <form action="#">
+            <label class="form-label" for="fullName">Full Name:</label>
+            <input id="fullName" class="form-input" type="text" placeholder="Enter Full Name">
+            <label class="form-label" for="email">Email:</label>
+            <input id="email" class="form-input" type="email" placeholder="Enter Email">
+            <label class="form-label" for="problemDescription">Problem Description:</label>
+            <textarea id="problemDescription" class="form-textarea" placeholder="Describe your Product Two problem"></textarea>
+            <button class="form-button" type="submit">Submit</button>
+        </form>
+    </div>
 </body>

@@ -1,12 +1,17 @@
 # Product Documentation Project
 
-## Setup
 
+
+
+
+## Setup
 
 ### Packages
 
 - install packages `pip3 install -r requirements.txt`
 - install theme `pip3 install mkdocs-material`
+- start server `mkdocs serve --dev-addr=0.0.0.0:8080`
+
 
 <br>
 
@@ -34,10 +39,15 @@
 
 
 
-## Workflow
+## Staff Workflow
 - update md files
 - push to github
 - netlify rebuilds and serves site
+
+## End User
+- customer can submit tickets
+- data is collected and stored using google docs
+- you can build data pipeline and train data to create future product chatbot
 
 <br>
 
