@@ -53,4 +53,4 @@
 
 ## DEMO
 
-VISIT 👉 <a href="product-documentation.netlify.app" target="_blank">Demo Site</a>
+VISIT 👉 <a href="https://product-documentation.netlify.app/" target="_blank">Demo Site</a>
